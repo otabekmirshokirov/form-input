@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 416px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  margin-top: 40px;
+}
+.form h2 {
+  display: flex;
+  justify-content: center;
+}
+.desing {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.user input {
+  border: none;
+
+  padding-top: 14px;
+  padding-right: 228px;
+  padding-bottom: 7px;
+  padding-left: 22px;
+  border: 2px solid #D9D9D9
+}
+.user-foto {
+  background-image: url("/images/user.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.emaill {
+  background-image: url("/images/sms.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.email input {
+  border: none;
+  border-radius: 1px;
+  padding-top: 14px;
+  padding-right: 228px;
+  padding-bottom: 7px;
+  padding-left: 24px;
+  border: 2px solid #D9D9D9
+}
+.email{
+    margin-top: 13px;
+}
+.passvord input{
+    border: none;
+    border-radius: 1px;
+    padding-top: 14px;
+    padding-right: 228px;
+    padding-bottom: 7px;
+    padding-left: 24px;
+    border: 2px solid #D9D9D9
+}
+.Password{
+    background-image: url("/images/cluch.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.passvord{
+    margin-top: 13px;
+}
+.Countr input{
+    border: none;
+    border-radius: 1px;
+    padding-top: 14px;
+    padding-right: 228px;
+    padding-bottom: 7px;
+    padding-left: 24px;
+    border: 2px solid #D9D9D9
+}
+.Country{
+    background-image: url("/images/ceti.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Countr{
+    margin-top: 13px;
+}
